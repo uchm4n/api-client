@@ -1,6 +1,7 @@
 # JSONPlaceholder API Wrapper
 
 This is a [JSONPlaceholder](https://jsonplaceholder.typicode.com) client library. It is designed to be easily integrated into any project.
+You can change it to any Api and add according methods in to it.
 
 ## Installation
 
