@@ -1,0 +1,31 @@
+{
+    "name": "u/api-client",
+    "description": "Any API Wrapper client library",
+    "license": "MIT",
+    "keywords": [
+        "U",
+        "API-Client"
+    ],
+    "authors": [
+        {
+            "name": "UchMan",
+            "email": "ucha19871@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "pestphp/pest": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "U\\API\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "U\\API\\Tests\\": "tests"
+        }
+    }
+}
