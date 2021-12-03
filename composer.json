@@ -1,10 +1,13 @@
 {
-    "name": "u/api-client",
+    "name": "uchm4n/api-client",
     "description": "Any API Wrapper client library",
     "license": "MIT",
     "keywords": [
         "U",
-        "API-Client"
+        "API-Client",
+        "API Wrapper",
+        "jsonplaceholder",
+        "jsonplAPI"
     ],
     "authors": [
         {

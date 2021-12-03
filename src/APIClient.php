@@ -11,10 +11,10 @@ class APIClient
 
     /**
      */
-    public function __construct()
+    public function __construct(?string $baseUrl = null)
     {
         $this->client = new Client();
-        $this->url    = new UrlGenerator();
+        $this->url    = new UrlGenerator($baseUrl);
     }
 
     public function getPosts(): ?array
