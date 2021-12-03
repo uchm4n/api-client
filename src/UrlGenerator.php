@@ -1,6 +1,6 @@
 <?php
 
-namespace Uchm4n\API;
+namespace U;
 
 
 class UrlGenerator

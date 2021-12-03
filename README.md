@@ -13,7 +13,9 @@ composer require uchm4n/api-client
 ```php
 <?php
 
-use Uchm4n\API\APIClient;
+require_once 'vendor/autoload.php';
+
+use U\APIClient;
 
 $api = new APIClient();
 
