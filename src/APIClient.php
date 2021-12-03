@@ -1,6 +1,6 @@
 <?php
 
-namespace U\API;
+namespace Uchm4n\API;
 
 use GuzzleHttp\Client;
 

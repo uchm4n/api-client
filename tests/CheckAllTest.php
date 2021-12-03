@@ -1,10 +1,10 @@
 <?php
 
-use U\API\APIClient;
+use Uchm4n\API\APIClient;
 
 test('Check All Endpoints', function () {
     $api = new APIClient();
-    expect($api)->toBeInstanceOf('U\API\APIClient');
+    expect($api)->toBeInstanceOf('Uchm4n\API\APIClient');
 
     // test getPosts
     expect($api->getPosts())->toBeArray()->toHaveCount(100);

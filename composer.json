@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "U\\API\\": "src"
+            "Uchm4n\\API\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "U\\API\\Tests\\": "tests"
+            "Uchm4n\\API\\Tests\\": "tests"
         }
     },
     "scripts": {

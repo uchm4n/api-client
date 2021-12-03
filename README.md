@@ -13,7 +13,7 @@ composer require uchm4n/api-client
 ```php
 <?php
 
-use U\API\APIClient;
+use Uchm4n\API\APIClient;
 
 $api = new APIClient();
 
